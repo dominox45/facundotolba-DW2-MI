@@ -1,0 +1,126 @@
+div .nav{
+   background-color: rgba(0, 0, 0, 0);
+ 
+   width: 100%;
+ }
+.logo{
+ height: 100px;
+ width: 100px;
+ position: relative;
+ left: 100px;
+ top: 20px;
+}
+.logo img{
+    width: 100%;
+}
+.input{
+    position: relative;
+    left: 500px;
+   bottom: 80px;
+}
+ul{
+    position: relative;
+    left: 900px;
+    bottom: 120px;
+}
+ul li{
+    list-style: none;
+    display: inline;
+    /* list style para sacar viñetas
+    display para cambiar si es de linea o de bloque  */
+    margin: 0px 10px;
+}
+a{
+    
+text-decoration: none;
+ /* text none para sacar el interlineado a los hipervinculos de la lista */
+}
+ header{
+    
+    background-image: url(https://ydirection.com/Parker/assets/images/heroo.jpg); height:600px;
+    color: aliceblue;
+
+ }
+
+header ul li a{
+    color: aliceblue;
+}
+body{
+    font-family: 'Oswald', sans-serif;
+    margin: 0px;
+}
+main h2{
+    text-align: center;
+    /* text-align: center; solo para centrar lineas de texto como h1 h2 etc */
+}
+
+main div p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: violet;
+    color: black;
+}
+.parrafo{
+    color: gold;
+}
+.papu{
+    color: crimson;
+}
+.papunt{
+    background-color: bisque;
+    color: blueviolet;
+}
+#id1{
+    background-color: dimgrey;
+    color: khaki;
+}
+/* marin es espaciado externo y el paddding el espaciado interno */
+p{
+    margin: 15px;
+    background-color: red;
+    padding: 15px 15px 15px 15px;
+}
+/* hola control k c comentarios
+al utilizar % en vez de px se estara usando el porcentaje de la vista de la pagina web en vez de ocupar una cantidad de pixeles */
+/* position fixed sirve para mantener fijo un elemento */
+main p{
+    margin: 50px;
+    background-color: red;
+    padding: 15px;
+    color: whitesmoke;
+    width: 50%;
+    height: auto;
+   
+}
+.cajita{
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+.cajita2{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(249, 0, 0);
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    position: absolute;
+    left: 250px;
+    
+}
+.cajita3{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(42, 16, 238);
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+  
+    /* con left se mueve hacia la derecha, top hacia abajo, bottom hacia arriba y right hacia la izquierda */
+} 
+/* font size para cmbiar tamaño de iconos */
+/* el margin y padding se suman al valor final de toda la cajita, pero con el box sizing podemos correjir o restarle esos valores*/
+/*position relative para poder mover por cada parte de la web, position fixed para fijar un elemento y position absolute

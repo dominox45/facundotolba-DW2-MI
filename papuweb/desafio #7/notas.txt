@@ -1,0 +1,4 @@
+flexgrow hace que una imagen ocupe todo el espacio de un contenedor padre 
+object fit hace que un conjunto de imagenes ocupe todo un espacio pero sin deformarse
+opacity para opacidad
+transition

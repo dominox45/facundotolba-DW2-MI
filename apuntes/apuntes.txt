@@ -1,0 +1,4 @@
+Error Lens
+live share 
+vscode-icons
+live server
